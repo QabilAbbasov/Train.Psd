@@ -1,0 +1,459 @@
+.header{
+    text-align: center;
+    padding: 30px;
+    background-color:#000;
+}
+#logo i{
+    font-size: 30px;
+    color: #28a2bc;
+}
+#logo h1{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+#navbar ul{
+    padding-top: 20px;
+}
+#navbar ul li{
+    padding-top: 15px;
+}
+
+#navbar ul a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.bg{
+    background-color: #28a2bc;
+}
+#img{
+    background: url("../img/bg.png")center/cover;
+    height: 85vh;
+    clip-path: polygon(50% 100%, -400% 0, 400% 0);
+}
+#img{
+    text-align: center;
+}
+#img h1{
+    padding-top: 70%;
+    font-size: 25px;
+    width: 95%;
+    line-height: 35px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#img button{
+    margin-top: 30px;
+    padding: 10px 35px;
+    outline: none;
+    background-color:#28a1bc11 ;
+    color: #fff;
+    border-color: #fff;
+    transition: .5s;
+}
+#img button:hover{
+    background-color: aqua;
+}
+.section-1{
+    text-align: center;
+    background-color: #28a2bc;
+    padding: 40px;
+}
+#header-1 h1{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+#header-1 p{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+#head-1{
+    text-align: center;
+    padding-top: 60px;
+    width: 95%;
+    margin: 0 auto;
+}
+#icon-1{
+    padding-top: 30px;
+}
+#icon-1 i{
+    font-size: 35px;
+    color: #fff;
+}
+#icon-1 h2{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#icon-1 p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.section-2{
+    text-align: center;
+    background-color: rgb(185, 179, 179);
+    padding: 10px;
+}
+#header-2 h1{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(90, 90, 90);
+}
+#header-2 p{
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(83, 82, 82);
+}
+#head-2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+#img-2{
+    padding-top: 20px;
+}
+#img-2 img{
+    width: 95%;
+}
+.section-3{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.section-4{
+    padding-top: 40px;
+}
+#header-4{
+    margin: 0 auto;
+    width: 70%;
+    padding: 30px;
+    background-color: rgba(155, 150, 150, 0.301);
+}
+#icon-4 i, #icon-5 i{
+    padding-left: 10px;
+    font-size: 30px;
+    color:rgba(148, 146, 146, 0.568);
+ }
+#icon-4{
+    display: flex;
+}
+#icon-4 i{
+    padding-top: 50px;
+}
+#icon-4 p{
+    padding: 50px 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:90%;
+    margin: 0 auto;
+    color: gray;
+    line-height: 25px;
+}
+#icon-5{
+    display: flex;
+    padding-left: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+#icon-5 h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+#icon-5 i{
+    padding-left: 5px;
+    position: relative;
+    bottom: 15px; 
+}
+.section-5{
+    padding-left: 40%;
+}
+#header-5{
+    background-color: gray;
+    height: 70px;
+    width: 60px;
+    margin: 0 auto;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+.section-6{
+    text-align: center;
+    margin-top:50px ;
+    background-color: black;
+    padding: 40px;
+}
+#header-6 h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#input{
+    width: 80%;
+    margin: 0 auto;
+}
+#input input{
+    margin-top: 20px;
+    padding: 3% 10%;
+    border: 0;
+    outline: none;
+    background-color:rgba(90, 88, 88, 0.192) ;
+    color: gray;
+    width: 80%;
+}
+#input button{
+    margin-top: 10px;
+    padding: 3% 6%;
+    border: 0;
+    outline: none;
+    background-color: #ffa200;
+    color: #fff;
+    transition: .5s;
+}
+#input button:hover{
+    background-color: #523401;
+}
+.section-10{
+    background-color:#45c7e3 ;
+   text-align: center;
+   padding: 40px;
+}
+#icon-12{
+    padding-top: 30px;
+}
+#head-10{
+    background-color: #2e8ea3;
+    height: 40px;
+    width:40px ;   
+    margin: 0 auto;
+}
+#head-10 i{
+    padding-top: 8px;
+    font-size: 25px;
+    color: #38c0df41;
+}
+#src-10{
+    padding-top: 40px;
+}
+#src-10 i{
+    font-size: 30px;
+    color: #fff;
+}
+#src-10 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+#src-10 h1{
+    padding-top: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+#icon-13{
+    padding-top: 30px;
+}
+#head-11{
+    background-color: #2e8ea3;
+    height: 40px;
+    width:40px ;  
+    margin: 0 auto; 
+}
+#head-11 i{
+    padding-top: 8px;
+    font-size: 25px;
+    color: #38c0df41;
+}
+.section-8{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 30px;
+}
+.section-8 h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#header-8{
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#icon-7{
+    margin-top: 20px;
+    background-color: #3b5998;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px ;
+}
+#icon-8{
+    margin-top: 20px;
+    background-color: #00aced;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px ;
+}
+#icon-9{
+    margin-top: 20px;
+    background-color: #dd4b39;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px ;
+}
+#icon-10{
+    margin-top: 20px;
+    background-color: #c5376d;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px ;
+}
+#icon-11{
+    margin-top: 20px;
+    background-color: #32506d;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px ;
+}
+#icon-7 i,#icon-8 i,#icon-9 i,#icon-10 i,#icon-11 i{
+    padding-top: 12px;
+    color: #fff;
+}
+.section-9{
+    background-color: #000;
+    text-align: center;
+    height: 50px;
+}
+.section-9 h1{
+    padding-top: 18px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+    .header{
+        text-align:start;
+        display: flex; 
+         justify-content: space-around; 
+    }
+    #logo{
+        display: flex;
+        padding: 15px;
+    }
+    #logo h1{
+        padding:5px 10px;
+    }
+    #navbar ul{
+        display: flex;
+        padding-top: 0px;
+    }
+    #navbar ul li{
+        padding: 23px;
+    }
+    #img h1{
+        padding-top: 20%;
+    }
+    #head-1{
+        display: flex;
+    }
+    #icon-1{
+        padding-top: 0px;
+    }
+    #header-4{
+        padding:0px;
+        width: 40%;
+    }
+    #icon-5{
+        padding-left:0px;
+        display: flex;
+        width: 20%;
+        position: relative;
+        bottom: 38px;
+        left: 38%;
+    }
+    #header-6{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+           margin: 0 auto;
+    }
+    #header-6 h1{
+        padding-top: 7px;
+    }
+    #input{
+        width: 60%;
+    }
+    #input input{
+        margin-top:0px;
+        width: 50%;
+    }
+    #input button{
+        margin-top:0px;
+    }
+    #icon-4 p{
+        padding: 50px 5px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        width:410px;
+        color: gray;
+        line-height: 25px;
+    }
+    .section-10{
+        padding: 0;
+       display: flex;
+       justify-content: space-between;
+    }
+    #icon-12{
+        padding-top:0px;
+        padding: 110px 30px;
+    }
+    #src-10 p{
+        width: 720px;
+    }
+    #src-10 h1{
+        padding-top: 40px;
+    }
+    #icon-13{
+        padding-top:0px;
+        padding: 110px 30px;
+    }
+    #header-8{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #icon-7,#icon-8,#icon-9,#icon-10,#icon-11{
+        margin-top: 0;
+    }
+
+}
